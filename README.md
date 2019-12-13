@@ -1,3 +1,8 @@
-# Object Relational Database application client
+# Object Relational Database Application
 
-After you clone the repository, run npm install
+## A project using Oracle DBMS
+
+### Client server architecture with a nodejs backend server communicating with a Vue.js client
+
+#### Make sure you have npm installed. 
+#### After you clone the project run "npm install"
