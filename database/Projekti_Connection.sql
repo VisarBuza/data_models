@@ -71,3 +71,9 @@ variant_id NUMBER,
 PRIMARY KEY(id),
 FOREIGN KEY (option_value_id) REFERENCES option_values(id),
 FOREIGN KEY (variant_id) REFERENCES variants(id) ON DELETE CASCADE);
+
+INSERT INTO users (name,email,password,address)
+Values (Name('Visar', 'Buza'), 
+'visar.buza7@gmail.com','123456',
+Address('Rr. Nena Tereze','Prishtine','10000'));
+
