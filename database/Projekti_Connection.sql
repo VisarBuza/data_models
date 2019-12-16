@@ -199,6 +199,165 @@ INSERT INTO option_values(name, option_id) VALUES ('XXL', 4);
 
 
 
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (1, 'Small',15, 10, 1);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (1, 'Medium',15, 10, 1);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (1, 'Large',15, 10, 1);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (2, 'Small White', 8, 8, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (2, 'Small Black',8,  5, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (2, 'Small Gray', 8, 5, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (2, 'Medium White',8, 5, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (2, 'Medium Black',8, 19, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (2, 'Medium Gray',8, 5, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (2, 'Large White',8, 7, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (2, 'Large Black',8, 3, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (2, 'Large Gray',8, 5, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (2, 'Extra Large White',10, 5, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (2, 'Extra Large Black',10, 15, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (2, 'Extra Large Gray',10, 7, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (3, '30 Slim', 70, 8, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (3, '30 Regular', 70, 8, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (3, '30 Skinny', 70, 8, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (3, '32 Skinny', 70, 8, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (3, '32 Regular', 70, 8, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (3, '32 Slim', 70, 8, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (3, '34 Slim', 70, 8, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (3, '34 Regular', 70, 8, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (3, '34 Skinny', 70, 8, 3);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (4, 'Small Jacket', 100, 10, 5);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (4, 'Medium Jacket', 100, 10, 5);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (4, 'Large Jacket', 100, 10, 5);
+
+INSERT INTO variants (product_id, description, price, stock, stock_threshold) VALUES (4, 'Extra Large Jacket', 100, 10, 5);
+
+
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (37,1);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (38,2);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (39,3);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (40,4);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (45,4);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (40,5);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (44,5);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (40,6);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (46,6);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (41,7);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (45,7);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (41,8);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (44,8);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (41,9);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (46,9);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (42,10);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (45,10);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (42,11);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (44,11);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (42,12);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (46,12);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (43,13);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (45,13);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (43,14);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (44,14);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (43,15);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (46,15);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (51,16);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (47,16);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (50,17);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (47,17);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (52,18);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (47,18);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (52,19);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (48,19);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (50,20);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (48,20);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (51,21);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (48,21);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (49,22);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (51,22);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (49,23);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (50,23);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (49,24);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (52,24);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (53,25);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (54,26);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (55,27);
+
+INSERT INTO option_value_variant (option_value_id, variant_id) VALUES (56,28);
+
+
+
+
 INSERT INTO payment_type (name) VALUES ('PayPal');
 
 INSERT INTO payment_type (name) VALUES ('Apple Pay');
