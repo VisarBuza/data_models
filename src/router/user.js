@@ -19,7 +19,7 @@ router.post('/login', async (req, res) => {
     try {
         let user = await User.findByCredentials(req.body.email, req.body.password);
 
-        let token = await jwt.sign(
+        let token = jwt.sign(
             {
                 id: user.ID,
                 email: user.EMAIL
