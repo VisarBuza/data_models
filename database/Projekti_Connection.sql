@@ -368,5 +368,61 @@ INSERT INTO payment_type (name) VALUES ('Master Card');
 
 INSERT INTO payment_type (name) VALUES ('Maestro');
 
+---------------------------------------------------------------------
+-----Index-----------------------------------------------------------
+Create Index Products_Name_index 
+ON Products(name);
+
+Create Index Users_name_index 
+ON users(name.firstname,name.lastname);
+
+---------------------------------------------------------------------
+-----Unique index----------------------------------------------------
+Create unique Index PaymentType_name_index 
+ON Payment_type(name);
+
+---------------------------------------------------------------------
+--- Bitmap Index ----------------------------------------------------
+CREATE bitmap INDEX variants_price_index
+ON Variants(Price);
+
+CREATE bitmap INDEX variants_stock_index 
+ON Variants(Stock);
+---------------------------------------------------------------------
+------Function Based Index ------------------------------------------
+CREATE INDEX products_totalmoney_index
+ON  Products(Price * Stock);
+
+
+---------------------------------------------------------------------
+----------Views------------------------------------------------------
+CREATE OR REPLACE FORCE VIEW perdoruest_gmail_pr AS 
+  Select u.name.firstname as Emri,
+     u.name.lastname as Mbiemri ,
+         u.address.city as Qyteti 
+           from users u 
+      where u.email like '%@gmail.com' 
+          and u.address.city = 'Prishtine';
+ 
+Update 
+   perdoruest_gmail_pr 
+Set 
+   Qyteti = 'Kamenice'
+   where Emri like 'S%';
+ 
+ 
+ 
+ Create  OR replace view  view2 As
+    Select p1.name as Emri_i_produktit ,
+        p1.brand as Brendi_i_produktit,
+        p1.price as Qmimi
+    from products p1
+      where p1.Stock>30 
+         and p1.price>70 
+           and p1.name in
+    (Select p.name as Emri_i_produktit 
+     from products p 
+        INNER JOIN options i ON p.id=i.product_id);
+
 
 
