@@ -425,4 +425,6 @@ Set
         INNER JOIN options i ON p.id=i.product_id);
 
 
+SELECT * FROM products, options WHERE  products.id = options.product_id
+
 

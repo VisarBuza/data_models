@@ -19,7 +19,7 @@ router.get('/products', auth, async (req, res) => {
 
 router.get('/products/:id', auth, async (req, res) => {
     try {
-        let product = await Product.getById(req.params.id);
+        let product = await Product.getWithOptions(req.params.id);
 
         if (!product) {
             return res.status(404).send();
