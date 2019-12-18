@@ -1,6 +1,4 @@
-# Object Relational Database Application
-
-## A project using Oracle DBMS
+# Object Relational Database Application using Oracle, Node.js and Vue.js
 
 ## Ne Folderin database mund ta gjesh filen .sql ku eshte edhe pjesa e realizuar ne oracle
 
