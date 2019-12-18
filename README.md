@@ -12,7 +12,6 @@
 
 ### Perveq qe mund ta blej nje produkt perdoruesi po ashtu mund ta shtoj nje produkt ne shporten e tij dhe dikur me von ti blej te gjitha produktet qe i ka ne shporte. Per secilin variant te nje produkti qe perdoruesi vendos ta blej leshohet nje fakture.
 
-### Client server architecture with a nodejs backend server communicating with a Vue.js client
-
+#### Client server architecture with a nodejs backend server communicating with a Vue.js client
 #### Make sure you have npm installed. 
 #### After you clone the project run "npm install"
