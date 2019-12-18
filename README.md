@@ -10,6 +10,8 @@
 
 ### Secili produkt ka disa opsione the secili opsion ka disa vlera te mundshme qe mund ti marr. Si kombinim i disa opsioneve te nje produkti formohen variantet te cilat peroduesi mund ti blej. Psh nje variant i nje blluze eshte blluza me ngjyre te kalter dhe madhesi S.
 
+### Perveq qe mund ta blej nje produkt perdoruesi po ashtu mund ta shtoj nje produkt ne shporten e tij dhe dikur me von ti blej te gjitha produktet qe i ka ne shporte. Per secilin variant te nje produkti qe perdoruesi vendos ta blej leshohet nje fakture.
+
 ### Client server architecture with a nodejs backend server communicating with a Vue.js client
 
 #### Make sure you have npm installed. 
