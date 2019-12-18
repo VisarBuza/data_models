@@ -31,4 +31,6 @@ router.get('/products/:id', auth, async (req, res) => {
     }
 });
 
+router.post('/products/:id/buy', auth, async (req, res) => {});
+
 module.exports = router;

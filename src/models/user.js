@@ -20,12 +20,13 @@ User.createUser = async ({ firstname, lastname, email, password, address, phoneN
         :password,
         Address
         (:street,:city,:zip),
-        PHONE_LIST(:phoneNumbers),
+        PHONE_LIST(:phoneNumber1, :phoneNumber2),
         CURRENT_TIMESTAMP,
         CURRENT_TIMESTAMP)`,
-        [firstname, lastname, email, hashedPassword, street, city, zip, phoneNumbers[0]]
+        [firstname, lastname, email, hashedPassword, street, city, zip, phoneNumbers[0], phoneNumbers[1]]
     );
 
+    console.log(user);
     if (user.rowsAffected == 0) {
         throw new Error('Could not register');
     }
